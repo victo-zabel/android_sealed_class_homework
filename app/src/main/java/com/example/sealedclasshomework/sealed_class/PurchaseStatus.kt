@@ -1,6 +1,6 @@
 package com.example.sealedclasshomework.sealed_class
 
-open class PurchaseStatus {
+sealed class PurchaseStatus {
 
     object InProgress: PurchaseStatus()
 
